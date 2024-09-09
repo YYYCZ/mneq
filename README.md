@@ -8,13 +8,13 @@
 
 ## 编译
 
-首先把 Rust 工程编译为 wasm 文件，在当前目录下运行
+首先在 `rust` 目录下把 Rust 工程编译为 wasm 文件，在当前目录下运行
 
 ```sh
-wasm-pack build -t web -d ./mneq-html/src/lib --release
+wasm-pack build -t web -d ../src/lib --release
 ```
 
-构建静态资源，切换到子目录 `mneq-html` 下，首次运行需要运行
+构建静态资源，首次运行需要运行
 
 ```sh
 pnpm install
@@ -28,4 +28,4 @@ pnpm run build
 
 ## 部署
 
-最后，把 `mneq-html/dist` 下的文件部署到服务器即可。
+最后，把 `dist` 下的文件部署到服务器即可。
