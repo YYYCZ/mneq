@@ -39,6 +39,7 @@ watch(mns, (value) => {
 // 复制结果
 function copyResult() {
     navigator.clipboard.writeText(result.value);
+    alert("结果复制成功");
 }
 </script>
 
