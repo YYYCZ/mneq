@@ -1,0 +1,15 @@
+{
+  "name": "mneq",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "mneq_bg.wasm",
+    "mneq.js",
+    "mneq.d.ts"
+  ],
+  "main": "mneq.js",
+  "types": "mneq.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
