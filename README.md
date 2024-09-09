@@ -25,3 +25,7 @@ pnpm install
 ```sh
 pnpm run build
 ```
+
+## 部署
+
+最后，把 `mneq-html/dist` 下的文件部署到服务器即可。
